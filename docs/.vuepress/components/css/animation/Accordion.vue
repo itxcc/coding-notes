@@ -17,6 +17,7 @@
       justify-content: center;
       align-items: center;
       background: rgba(0,0,0,.2);
+      background-image: url('../../../public/images/accordion2.jpg');
       
       &:not(:hover) {
         width: 20%;
@@ -51,9 +52,10 @@
   <div>
     <ul class="accordion-container">
       <li class="accordion-item"
-        v-for="item in 7"
-        >
-        <p class="accordion-title">背景{{item}}</p>
+        v-for="(item,index) in items">
+        <!-- :style="{'backgroundImage':`url(${item.url})`,width:100/item.length+'%'}" -->
+        <p class="accordion-title">背景{{index+1}}</p>
+        
       </li>
     </ul>
 
@@ -65,6 +67,13 @@
     name: "Accordion",
     data() {
       return {
+        items:[
+          {url:("../public/images/accordion1.jpg")},
+          {url:'../public/images/accordion2.jpg'},
+          {url:'/public/images/accordion3.jpg'},
+          {url:'../../../public/images/accordion1.jpg'},
+          {url:'../../../public/images/accordion2.jpg'},
+        ]
       };
     }
   };
