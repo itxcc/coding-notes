@@ -1,4 +1,6 @@
-# 前端笔记
+# coding-notes
+
+利用 **vuepress** 做的笔记
 
 ## 安装vuepresss
 

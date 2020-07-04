@@ -1,16 +1,16 @@
 ---
 home: true
 lang: zh-CN
-heroText: itxcc
-heroImage: 
+heroText: 小丑杂货铺
+heroImage:
 actionText: Go →
 actionLink: /css/
 features:
-- title: css-tips
-  details: 记录css学习
-- title: js
-  details: 先开好坑
-- title: 前端总结
-  details: 前端总结
-footer: Copyright © 2019-present ITXCC
+- title: CSS
+  details: 记录 CSS 学习
+- title: JavaScript
+  details: 记录 JavaScript 学习
+- title: 编程软件
+  details: 先开坑
+footer: Copyright © 2020-present itxcc
 ---

@@ -1,38 +1,37 @@
 // CSS的目录结构
-const cssSidebar =[ 
-  
+const cssSidebar = [
   {
     title: 'init',
     collapsable: false,
     children: [
-      '/css/init/reset.md',
+      '/CSS/init/reset.md',
     ]
   },
   {
     title: '小技巧',
     collapsable: false,
     children: [
-      '/css/tips/scrollbar.md',
-      '/css/tips/word.md',
+      '/CSS/tips/scrollbar.md',
+      '/CSS/tips/word.md',
     ]
   },
   {
     title: '动画',
     collapsable: false,
     children: [
-      '/css/animation/loading.md',
-      '/css/animation/button.md',
-      '/css/animation/accordion.md',
-      '/css/animation/parabola.md',
+      '/CSS/animation/loading.md',
+      '/CSS/animation/button.md',
+      '/CSS/animation/accordion.md',
+      '/CSS/animation/parabola.md',
     ]
   },
   {
     title: '属性',
     collapsable: false,
     children: [
-      '/css/attribute/flexbox.md',
-      '/css/attribute/grid.md',
-      '/css/attribute/filter.md',
+      '/CSS/attribute/flexbox.md',
+      '/CSS/attribute/grid.md',
+      '/CSS/attribute/filter.md',
 
     ]
   },
@@ -40,12 +39,34 @@ const cssSidebar =[
     title: '工具',
     collapsable: false,
     children: [
-      '/css/tool/card.md',
-      '/css/tool/triangle.md',
+      '/CSS/tool/card.md',
+      '/CSS/tool/triangle.md',
+    ]
+  },
+]
+
+// JavaScript
+const jsSidebar = [
+  {
+    title: '图片懒加载',
+    collapsable: false,
+    children: [
+      '/CSS/tips/scrollbar.md',
+      '/CSS/tips/word.md',
+      // '/JavaScript/lazyLoading/test.md',
+    ]
+  },
+  {
+    title: '工具',
+    collapsable: false,
+    children: [
+      '/CSS/tool/card.md',
+      '/CSS/tool/triangle.md',
     ]
   },
 ]
 
 module.exports = {
-  cssSidebar
+  cssSidebar,
+  jsSidebar,
 }
