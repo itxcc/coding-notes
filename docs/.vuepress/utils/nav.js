@@ -45,26 +45,42 @@ const cssSidebar = [
   },
 ]
 
+// webpack目录结构
+const webpackSidebar = {
+  title: 'Webpack',
+  collapsable: false,
+  children: [
+    '/webpack/',
+    '/webpack/source.md',
+    '/webpack/install.md',
+    '/webpack/start.md',
+    '/webpack/static.md',
+    '/webpack/core.md',
+    '/webpack/advanced.md',
+    '/webpack/case.md',
+    '/webpack/optimization.md',
+    '/webpack/loader.md',
+    '/webpack/plugin.md'
+  ]
+}
 // JavaScript
 const jsSidebar = [
   {
     title: '图片懒加载',
     collapsable: false,
     children: [
-      '/CSS/tips/scrollbar.md',
-      '/CSS/tips/word.md',
-      // '/JavaScript/lazyLoading/test.md',
+      '/JavaScript/lazyLoading/lazy.md',
     ]
   },
   {
-    title: '工具',
+    title: '防抖节流',
     collapsable: false,
     children: [
-      '/CSS/tool/card.md',
-      '/CSS/tool/triangle.md',
+      '/JavaScript/throttle-debounce/throttle-debounce.md',
     ]
   },
 ]
+
 
 module.exports = {
   cssSidebar,

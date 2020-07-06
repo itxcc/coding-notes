@@ -31,6 +31,14 @@ module.exports = {
         text: 'JavaScript',
         link: '/JavaScript/'
       },
+      {
+        text: 'Vue',
+        link: '/Vue/'
+      },
+      {
+        text: 'Git',
+        link: '/Git/'
+      },
       // {
       //   text: '关于', link: '/关于/',
       //   items: [
@@ -58,6 +66,7 @@ module.exports = {
           ]
         },
       ],
+      // '/JavaScript/': cssSidebar,
     },
   },
   configureWebpack: {
